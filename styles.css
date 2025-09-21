@@ -1,0 +1,202 @@
+/* ===== Общие стили ===== */
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  background: linear-gradient(135deg, #f7f7f7, #e5e5e5);
+  color: #222;
+  line-height: 1.6;
+}
+
+h1, h2, h3 {
+  font-family: 'Oswald', sans-serif;
+  margin-top: 0;
+}
+
+/* ===== Header & Navbar ===== */
+.header {
+  background: #1c1c1c;
+  color: #ffcc00;
+  text-align: center;
+  padding: 30px 20px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.4);
+}
+.header h1 {
+  margin: 0;
+  font-size: 2.4em;
+}
+.navbar {
+  margin-top: 15px;
+  text-align: center;
+}
+.navbar a {
+  background: #ffcc00;
+  color: #1c1c1c;
+  margin: 0 8px;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+.navbar a:hover {
+  background: #1c1c1c;
+  color: #ffcc00;
+  border: 1px solid #ffcc00;
+}
+
+/* ===== Hero Section ===== */
+.hero {
+  height: 80vh;
+  background: url("images/hero-bg.jpg") center/cover no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #ffcc00;
+  padding: 20px;
+}
+.hero-text h2 {
+  font-size: 3.5em;
+  margin-bottom: 15px;
+  text-shadow: 0 3px 8px rgba(0,0,0,0.5);
+}
+.hero-text p {
+  font-size: 1.2em;
+  margin-bottom: 25px;
+  color: #fff;
+}
+.hero .btn {
+  display: inline-block;
+  background: #ffcc00;
+  color: #1c1c1c;
+  padding: 12px 30px;
+  border-radius: 8px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: 0.3s;
+}
+.hero .btn:hover {
+  background: #1c1c1c;
+  color: #ffcc00;
+  border: 1px solid #ffcc00;
+}
+
+/* ===== Контент ===== */
+.content {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 25px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+  text-align: center;
+}
+
+/* ===== Single Photo ===== */
+.single-photo {
+  text-align: center;
+  margin-top: 20px;
+}
+.single-photo img {
+  max-width: 500px;
+  border: 4px solid #ffcc00;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+  margin-bottom: 15px;
+}
+.single-photo p {
+  font-size: 1.1em;
+  font-weight: bold;
+  color: #1c1c1c;
+}
+
+/* ===== About Image ===== */
+.portrait {
+  display: block;
+  margin: 25px auto;
+  max-width: 300px;
+  border: 5px solid #ffcc00;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.3);
+}
+
+/* ===== Lookbook Gallery ===== */
+.brand-gallery {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+.brand-gallery div {
+  text-align: center;
+}
+.brand-gallery img {
+  max-width: 280px;
+  border: 4px solid #ffcc00;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+  transition: transform 0.3s ease;
+}
+.brand-gallery img:hover {
+  transform: scale(1.05);
+}
+.brand-gallery p {
+  margin-top: 10px;
+  font-weight: bold;
+  color: #1c1c1c;
+}
+
+/* ===== Form ===== */
+form {
+  width: 60%;
+  margin: 30px auto;
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.25);
+}
+label {
+  font-weight: bold;
+  display: block;
+  margin-top: 12px;
+  color: #1c1c1c;
+}
+input, textarea {
+  width: 100%;
+  margin: 10px 0 18px 0;
+  padding: 12px;
+  border: 1px solid #1c1c1c;
+  border-radius: 8px;
+  transition: 0.2s;
+}
+input:focus, textarea:focus {
+  border-color: #ffcc00;
+  outline: none;
+}
+button {
+  background: #ffcc00;
+  color: #1c1c1c;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+button:hover {
+  background: #1c1c1c;
+  color: #ffcc00;
+  border: 1px solid #ffcc00;
+}
+
+/* ===== Footer ===== */
+.footer {
+  clear: both;
+  background: #1c1c1c;
+  color: #ffcc00;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+  font-size: 0.9em;
+  box-shadow: 0 -3px 10px rgba(0,0,0,0.4);
+}
